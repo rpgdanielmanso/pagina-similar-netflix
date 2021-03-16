@@ -1,0 +1,22 @@
+/*Ajustes de tela para situações condicionais, semelhante ao if de outras linguagens*/
+
+@media screen and (max-width: 700px) {
+    header .container {
+        display: flex;
+        flex-direction: column;
+    }
+    .botao {
+        margin-top: 10px;
+        width: 200px;
+    }
+}
+
+
+/*Nesta situação a tela irá mostrar o que foi definido no main.css, porém quando dentro dos parâmetros definidos
+media query, os atributos aplicados serão os aqui definidos*/
+
+@media screen and (min-width: 1000px) {
+    .sinopse {
+        width: 70%;
+    }
+}
